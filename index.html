@@ -9,118 +9,172 @@
     <title>AE Eamac</title>
 </head>
 
-<body class="mx-2">
+<body class="mx-2 bg-white">
     <!-- Navbar goes here -->
-    <nav class="bg-white shadow-lg">
-        <div>
-            <div class="flex justify-between rounded-lg bg-gray-800 my-2">
-                <div class="flex w-full items-center justify-between md:w-auto ml-2">
-                    <a href="#">
-                        <span class="sr-only">AE Eamac</span>
-                        <img alt="Your Company" class="h-8 w-auto sm:h-10"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600">
-                    </a>
 
 
-                    <!-- Primary Navbar items -->
-                    <div class="hidden md:flex items-center space-x-8 pr-4 ml-10 my-6 ">
-                        <a href="#"
-                            class="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Daddshboard</a>
-
-                        <a href="#"
-                            class="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Team</a>
-
-
-                        <a href="#"
-                            class="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Team</a>
+    <div class="flex justify-between rounded-lg bg-gray-800 my-1">
+        <div class="flex w-full items-center justify-between md:w-auto ml-2">
+            <a href="#">
+                <span class="sr-only">AE Eamac</span>
+                <img alt="Your Company" class="h-8 w-auto sm:h-10"
+                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600">
+            </a>
 
 
-                        <a href="#"
-                            class="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Team</a>
+            <!-- Primary Navbar items -->
+            <div class="hidden md:flex items-center space-x-8 pr-4 ml-10 my-4">
+                <a href="#"
+                    class="text-gray-200 hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
 
-                    </div>
-                </div>
+                <a href="#"
+                    class="text-gray-200 hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Présentation</a>
 
-                <!-- Mobile menu button -->
-                <div class="md:hidden flex items-center mr-2 my-2">
-                    <button class="outline-none mobile-menu-button">
-                        <svg class=" w-6 h-6 text-gray-500 hover:text-blue-500 " x-show="!showMenu" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
 
-                </div>
+                <a href="#"
+                    class="text-gray-200 hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Promotions</a>
+
+
+                <a href="#"
+                    class="text-gray-200 hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Partenaires</a>
+
             </div>
         </div>
-        <!-- mobile menu -->
-        <div class="hidden mobile-menu">
-            <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3 rounded-lg bg-gray-700">
 
-                <a href="#" class="bg-blue-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                    aria-current="page">Dashboard</a>
-
-                <a href="#"
-                    class="text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
-
-                <a href="#"
-                    class="text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
-
-                <a href="#"
-                    class="text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
-
-                <a href="#"
-                    class="text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Reports</a>
-
-            </div>
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center mr-2 my-2">
+            <button class="outline-none mobile-menu-button">
+                <svg class=" w-6 h-6 text-gray-500 hover:text-blue-500 " x-show="!showMenu" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
 
         </div>
+    </div>
+
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu">
+        <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3 rounded-lg bg-gray-700 mb-1">
+
+            <a href="#" class="bg-blue-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                aria-current="page">Accueil</a>
+
+            <a href="#"
+                class="text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Présentation</a>
+
+            <a href="#"
+                class="text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Promotions</a>
+
+            <a href="#"
+                class="text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Partenaires</a>
+        </div>
+
+    </div>
 
 
-        <!-- Mot President -->
+    <!-- Mot President -->
 
-        <figure class="md: rounded-lg text-center bg-gray-200">
-            <h1 class="pb-4 text-2xl tracking-tight font-semibold">Mot du Président</h1>
-            <img src="assets/avatar.png" class="w-32 h-32 rounded-full mx-auto" alt="president">
+    <figure class="md: rounded-lg text-center bg-gray-200">
+        <h1 class="pb-4 text-2xl tracking-tight font-semibold">Mot du Président</h1>
+        <img src="assets/avatar.png" class="w-32 h-32 rounded-full mx-auto" alt="president">
 
-            <div class="space-y-4">
-                <blockquote>
-                    <p class="pt-6 text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit provident, possimus ratione
-                        iure recusandae fugiat sint esse quos magni aspernatur molestias tempore ipsum ex sapiente,
-                        dolores
-                        est blanditiis dolore.
+        <div class="space-y-4">
+            <blockquote>
+                <p class="pt-6 px-4 text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit provident, possimus ratione
+                    iure recusandae fugiat sint esse quos magni aspernatur molestias tempore ipsum ex sapiente,
+                    dolores
+                    est blanditiis dolore.
+                </p>
+            </blockquote>
+            <figcaption class="font-medium">
+                <div class="text-cyan-600 hover:text-cyan-500">
+                    John Doe
+                </div>
+                <div class="text-gray-500">
+                    Ingénieur Météo Eamac
+
+                </div>
+
+            </figcaption>
+
+        </div>
+    </figure>
+
+
+
+
+    <!-- Fin Mot President-->
+
+    <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+
+    <!-- Pied de Page-->
+
+    <footer class="rounded-lg my-2 text-center bg-gray-900 text-white">
+        <div class="container px-6 pt-6">
+
+
+            <div class="grid gird-cols-1 gap-4 flex justify-center items-center mb-3">
+                <div class="">
+                    <p class="text-center">
+                        <strong>Suivez-nous sur nos différents réseaux sociaux </strong>
                     </p>
-                </blockquote>
-                <figcaption class="font-medium">
-                    <div class="text-cyan-600 hover:text-cyan-500">
-                        John Doe
-                    </div>
-                    <div class="text-gray-500">
-                        Ingénieur Météo Eamac
-
-                    </div>
-
-                </figcaption>
+                </div>
 
             </div>
-        </figure>
 
 
 
+            <div class="flex justify-center mb-6">
+                <a href="#!" type="button"
+                    class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                        class="w-2 h-full mx-auto" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                        </path>
+                    </svg>
+                </a>
 
-        <!-- Fin Mot President-->
+                <a href="#!" type="button"
+                    class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
+                        class="w-3 h-full mx-auto" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+                        <path fill="currentColor"
+                            d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z">
+                        </path>
+                    </svg>
+                </a>
 
-        <script>
-            const btn = document.querySelector("button.mobile-menu-button");
-            const menu = document.querySelector(".mobile-menu");
+            </div>
 
-            btn.addEventListener("click", () => {
-                menu.classList.toggle("hidden");
-            });
-        </script>
-    </nav>
+
+
+            <div class="mb-4">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                    repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                    eum harum corrupti dicta, aliquam sequi voluptate quas.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="#">AE Eamac</a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
